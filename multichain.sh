@@ -227,7 +227,7 @@ sudo sed -ie 's/MANAGER_ADDRESS =.*;/MANAGER_ADDRESS = "'$addr'";/g' /var/www/ht
 ###
 ## INSTALLING & CONFIGURING APPS
 ###
-git clone https://github.com/unibitlabs/apps.git
+git clone https://github.com/UniBitProject/apps.git
 
 # Configuring Apps
 sudo sed -ie 's/$CHAIN_NAME =.*;/$CHAIN_NAME = "'$chainname'";/g' /var/www/html/apps/config.php
